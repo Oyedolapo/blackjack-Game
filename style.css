@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #023020;
+    color: #fff;
+    font-weight: 800;
+}
+h1{
+    color: #DAA520;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+p{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    border-radius: .2rem;
+    font-weight: 900;
+    padding: .5rem 0;
+    margin: .5rem 0;
+    cursor: pointer;
+}
